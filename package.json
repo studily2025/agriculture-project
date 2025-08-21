@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "akash.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon ak.js",
     "test": "nodemon ./ak.js"
   },
   "author": "",
@@ -19,6 +21,7 @@
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.1",
     "mysql": "^2.18.1",
+    "mysql2": "^3.14.3",
     "nodemon": "^3.1.10",
     "params": "^0.1.1"
   }
