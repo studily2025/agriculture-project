@@ -1,0 +1,8 @@
+# dotenv files
+.env
+.env.*
+!.env.example     # sample env ko track karna ho to
+# monorepo/subfolders:
+**/.env
+**/.env.*
+!**/.env.example
